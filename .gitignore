@@ -1,0 +1,8 @@
+data/
+.venv/
+plots/
+uv.lock
+.DS_Store
+embeddings/
+__pycache__/
+.python-version

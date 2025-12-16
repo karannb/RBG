@@ -1,0 +1,24 @@
+[project]
+name = "rbg"
+version = "0.1.0"
+description = "RBG Assignment"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "biopython>=1.84",
+    "matplotlib>=3.9.0",
+    "scipy>=1.14.0",
+    "torch==2.4.0",
+    "torchvision==0.19.0",
+    "torch-geometric>=2.5.0",
+    "torch-scatter",
+    "torch-sparse",
+    "torch-cluster",
+    "torch-spline-conv",
+    "transformers>=4.40.0",
+]
+
+[tool.uv]
+find-links = [
+    "https://data.pyg.org/whl/torch-2.4.0+cpu.html"
+]

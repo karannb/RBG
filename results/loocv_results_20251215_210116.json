@@ -1,0 +1,456 @@
+{
+  "timestamp": "2025-12-15T21:01:16.094929",
+  "hyperparameters": {
+    "batch_size": 4,
+    "hidden_dim": 64,
+    "learning_rate": 0.0001,
+    "num_epochs": 20,
+    "cutoff": 20.0,
+    "n_folds": 39
+  },
+  "overall_metrics": {
+    "mse": 792.2666102140067,
+    "rmse": 28.14723095109014,
+    "mae": 13.369925963572967,
+    "r2": 0.836761386133399,
+    "pearson": 0.9170159418197331,
+    "spearman": 0.9114778025378643
+  },
+  "fold_results": [
+    {
+      "fold": 0,
+      "pdb_name": "1a05_1_protein",
+      "prediction": 172.4054412841797,
+      "target": 128.26199340820312,
+      "final_train_loss": 157.90243379693283,
+      "final_val_loss": 1948.64404296875
+    },
+    {
+      "fold": 1,
+      "pdb_name": "1a0f_1_protein",
+      "prediction": 80.9568862915039,
+      "target": 76.83300018310547,
+      "final_train_loss": 140.07859149732087,
+      "final_val_loss": 17.006437301635742
+    },
+    {
+      "fold": 2,
+      "pdb_name": "1a0g_1_protein",
+      "prediction": 122.83503723144531,
+      "target": 107.80999755859375,
+      "final_train_loss": 167.66495885347067,
+      "final_val_loss": 225.75181579589844
+    },
+    {
+      "fold": 3,
+      "pdb_name": "1a0j_1_protein",
+      "prediction": 121.33463287353516,
+      "target": 158.21400451660156,
+      "final_train_loss": 64.37602545085706,
+      "final_val_loss": 1360.0880126953125
+    },
+    {
+      "fold": 4,
+      "pdb_name": "1a0q_1_protein",
+      "prediction": 82.72159576416016,
+      "target": 75.85700225830078,
+      "final_train_loss": 191.62170605910453,
+      "final_val_loss": 47.122642517089844
+    },
+    {
+      "fold": 5,
+      "pdb_name": "1a1a_1_protein",
+      "prediction": 42.77656936645508,
+      "target": 49.2140007019043,
+      "final_train_loss": 194.79399048654656,
+      "final_val_loss": 41.440521240234375
+    },
+    {
+      "fold": 6,
+      "pdb_name": "1a1b_1_protein",
+      "prediction": 44.293556213378906,
+      "target": 48.11899948120117,
+      "final_train_loss": 184.54674951653732,
+      "final_val_loss": 14.634016036987305
+    },
+    {
+      "fold": 7,
+      "pdb_name": "1a1c_1_protein",
+      "prediction": 46.98936080932617,
+      "target": 48.54800033569336,
+      "final_train_loss": 79.97887766988654,
+      "final_val_loss": 2.4293572902679443
+    },
+    {
+      "fold": 8,
+      "pdb_name": "1a1e_1_protein",
+      "prediction": 43.731143951416016,
+      "target": 48.47600173950195,
+      "final_train_loss": 153.35500325654684,
+      "final_val_loss": 22.513675689697266
+    },
+    {
+      "fold": 9,
+      "pdb_name": "1a1m_1_protein",
+      "prediction": 71.5006332397461,
+      "target": 74.07099914550781,
+      "final_train_loss": 207.64207347286376,
+      "final_val_loss": 6.606781005859375
+    },
+    {
+      "fold": 10,
+      "pdb_name": "1a1n_1_protein",
+      "prediction": 69.14493560791016,
+      "target": 73.52400207519531,
+      "final_train_loss": 192.6988993192974,
+      "final_val_loss": 19.176223754882812
+    },
+    {
+      "fold": 11,
+      "pdb_name": "1a1o_1_protein",
+      "prediction": 80.12313842773438,
+      "target": 73.59500122070312,
+      "final_train_loss": 128.19405861904747,
+      "final_val_loss": 42.6165771484375
+    },
+    {
+      "fold": 12,
+      "pdb_name": "1a2b_1_protein",
+      "prediction": 23.34719467163086,
+      "target": 33.7859992980957,
+      "final_train_loss": 184.04696464538574,
+      "final_val_loss": 108.96864318847656
+    },
+    {
+      "fold": 13,
+      "pdb_name": "1a2c_1_protein",
+      "prediction": 83.23015594482422,
+      "target": 57.07099914550781,
+      "final_train_loss": 149.84780512358012,
+      "final_val_loss": 684.301513671875
+    },
+    {
+      "fold": 14,
+      "pdb_name": "1a2t_1_protein",
+      "prediction": 36.54256820678711,
+      "target": 32.143001556396484,
+      "final_train_loss": 138.87233824478952,
+      "final_val_loss": 19.356185913085938
+    },
+    {
+      "fold": 15,
+      "pdb_name": "1a2u_1_protein",
+      "prediction": 34.786033630371094,
+      "target": 31.881000518798828,
+      "final_train_loss": 130.4583145442762,
+      "final_val_loss": 8.439217567443848
+    },
+    {
+      "fold": 16,
+      "pdb_name": "1a3k_1_protein",
+      "prediction": 35.44789123535156,
+      "target": 26.261999130249023,
+      "final_train_loss": 172.60545790509173,
+      "final_val_loss": 84.380615234375
+    },
+    {
+      "fold": 17,
+      "pdb_name": "1a3t_1_protein",
+      "prediction": 35.457237243652344,
+      "target": 31.881000518798828,
+      "final_train_loss": 148.98963742507132,
+      "final_val_loss": 12.789468765258789
+    },
+    {
+      "fold": 18,
+      "pdb_name": "1a3u_1_protein",
+      "prediction": 34.74482727050781,
+      "target": 31.881000518798828,
+      "final_train_loss": 195.24632002177992,
+      "final_val_loss": 8.20150375366211
+    },
+    {
+      "fold": 19,
+      "pdb_name": "1a3v_1_protein",
+      "prediction": 36.08543014526367,
+      "target": 31.881000518798828,
+      "final_train_loss": 148.92394397133276,
+      "final_val_loss": 17.677228927612305
+    },
+    {
+      "fold": 20,
+      "pdb_name": "1a4g_1_protein",
+      "prediction": 287.73785400390625,
+      "target": 289.2619934082031,
+      "final_train_loss": 178.62713823820414,
+      "final_val_loss": 2.323000907897949
+    },
+    {
+      "fold": 21,
+      "pdb_name": "1a4h_1_protein",
+      "prediction": 63.03293991088867,
+      "target": 80.92900085449219,
+      "final_train_loss": 418.6467991879112,
+      "final_val_loss": 320.2690124511719
+    },
+    {
+      "fold": 22,
+      "pdb_name": "1a4i_1_protein",
+      "prediction": 135.1895294189453,
+      "target": 104.73799896240234,
+      "final_train_loss": 102.13989947971545,
+      "final_val_loss": 927.2957153320312
+    },
+    {
+      "fold": 23,
+      "pdb_name": "1a4k_1_protein",
+      "prediction": 72.807861328125,
+      "target": 79.0,
+      "final_train_loss": 197.74576337713944,
+      "final_val_loss": 38.34258270263672
+    },
+    {
+      "fold": 24,
+      "pdb_name": "1a4k_2_protein",
+      "prediction": 76.98748779296875,
+      "target": 79.28600311279297,
+      "final_train_loss": 110.70499962254574,
+      "final_val_loss": 5.283172607421875
+    },
+    {
+      "fold": 25,
+      "pdb_name": "1a4m_1_protein",
+      "prediction": 67.6766586303711,
+      "target": 66.52400207519531,
+      "final_train_loss": 90.02066042548732,
+      "final_val_loss": 1.3286170959472656
+    },
+    {
+      "fold": 26,
+      "pdb_name": "1a4m_2_protein",
+      "prediction": 66.58446502685547,
+      "target": 66.52400207519531,
+      "final_train_loss": 135.29351846795333,
+      "final_val_loss": 0.0036557684652507305
+    },
+    {
+      "fold": 27,
+      "pdb_name": "1a4m_3_protein",
+      "prediction": 68.68446350097656,
+      "target": 66.52400207519531,
+      "final_train_loss": 130.88832333213404,
+      "final_val_loss": 4.667593479156494
+    },
+    {
+      "fold": 28,
+      "pdb_name": "1a4m_4_protein",
+      "prediction": 76.24150085449219,
+      "target": 66.52400207519531,
+      "final_train_loss": 331.8496246839824,
+      "final_val_loss": 94.42977905273438
+    },
+    {
+      "fold": 29,
+      "pdb_name": "1a4q_1_protein",
+      "prediction": 288.1243591308594,
+      "target": 289.2619934082031,
+      "final_train_loss": 211.5350582348673,
+      "final_val_loss": 1.294211745262146
+    },
+    {
+      "fold": 30,
+      "pdb_name": "1a4r_1_protein",
+      "prediction": 65.14649963378906,
+      "target": 70.92900085449219,
+      "final_train_loss": 148.3391237760845,
+      "final_val_loss": 33.437320709228516
+    },
+    {
+      "fold": 31,
+      "pdb_name": "1a4w_1_protein",
+      "prediction": 68.6456069946289,
+      "target": 52.97600173950195,
+      "final_train_loss": 120.98357546956916,
+      "final_val_loss": 245.53652954101562
+    },
+    {
+      "fold": 32,
+      "pdb_name": "1a5b_1_protein",
+      "prediction": 252.28810119628906,
+      "target": 230.16700744628906,
+      "final_train_loss": 102.45901951036956,
+      "final_val_loss": 489.3427734375
+    },
+    {
+      "fold": 33,
+      "pdb_name": "1a5s_1_protein",
+      "prediction": 222.34747314453125,
+      "target": 232.30999755859375,
+      "final_train_loss": 156.93324560868112,
+      "final_val_loss": 99.25189208984375
+    },
+    {
+      "fold": 34,
+      "pdb_name": "1a5v_1_protein",
+      "prediction": 42.31267547607422,
+      "target": 53.595001220703125,
+      "final_train_loss": 128.21906661987305,
+      "final_val_loss": 127.2908706665039
+    },
+    {
+      "fold": 35,
+      "pdb_name": "1a5w_1_protein",
+      "prediction": 41.437828063964844,
+      "target": 53.595001220703125,
+      "final_train_loss": 160.94964735131515,
+      "final_val_loss": 147.79685974121094
+    },
+    {
+      "fold": 36,
+      "pdb_name": "1a5x_1_protein",
+      "prediction": 45.62917709350586,
+      "target": 53.595001220703125,
+      "final_train_loss": 176.79248508654143,
+      "final_val_loss": 63.45435333251953
+    },
+    {
+      "fold": 37,
+      "pdb_name": "1a5z_1_protein",
+      "prediction": 76.78997802734375,
+      "target": 230.11900329589844,
+      "final_train_loss": 42.27554040206106,
+      "final_val_loss": 23509.7890625
+    },
+    {
+      "fold": 38,
+      "pdb_name": "1a6v_1_protein",
+      "prediction": 31.604284286499023,
+      "target": 41.356998443603516,
+      "final_train_loss": 294.09755345394734,
+      "final_val_loss": 95.11543273925781
+    }
+  ],
+  "all_predictions": [
+    172.4054412841797,
+    80.9568862915039,
+    122.83503723144531,
+    121.33463287353516,
+    82.72159576416016,
+    42.77656936645508,
+    44.293556213378906,
+    46.98936080932617,
+    43.731143951416016,
+    71.5006332397461,
+    69.14493560791016,
+    80.12313842773438,
+    23.34719467163086,
+    83.23015594482422,
+    36.54256820678711,
+    34.786033630371094,
+    35.44789123535156,
+    35.457237243652344,
+    34.74482727050781,
+    36.08543014526367,
+    287.73785400390625,
+    63.03293991088867,
+    135.1895294189453,
+    72.807861328125,
+    76.98748779296875,
+    67.6766586303711,
+    66.58446502685547,
+    68.68446350097656,
+    76.24150085449219,
+    288.1243591308594,
+    65.14649963378906,
+    68.6456069946289,
+    252.28810119628906,
+    222.34747314453125,
+    42.31267547607422,
+    41.437828063964844,
+    45.62917709350586,
+    76.78997802734375,
+    31.604284286499023
+  ],
+  "all_targets": [
+    128.26199340820312,
+    76.83300018310547,
+    107.80999755859375,
+    158.21400451660156,
+    75.85700225830078,
+    49.2140007019043,
+    48.11899948120117,
+    48.54800033569336,
+    48.47600173950195,
+    74.07099914550781,
+    73.52400207519531,
+    73.59500122070312,
+    33.7859992980957,
+    57.07099914550781,
+    32.143001556396484,
+    31.881000518798828,
+    26.261999130249023,
+    31.881000518798828,
+    31.881000518798828,
+    31.881000518798828,
+    289.2619934082031,
+    80.92900085449219,
+    104.73799896240234,
+    79.0,
+    79.28600311279297,
+    66.52400207519531,
+    66.52400207519531,
+    66.52400207519531,
+    66.52400207519531,
+    289.2619934082031,
+    70.92900085449219,
+    52.97600173950195,
+    230.16700744628906,
+    232.30999755859375,
+    53.595001220703125,
+    53.595001220703125,
+    53.595001220703125,
+    230.11900329589844,
+    41.356998443603516
+  ],
+  "all_pdb_names": [
+    "1a05_1_protein",
+    "1a0f_1_protein",
+    "1a0g_1_protein",
+    "1a0j_1_protein",
+    "1a0q_1_protein",
+    "1a1a_1_protein",
+    "1a1b_1_protein",
+    "1a1c_1_protein",
+    "1a1e_1_protein",
+    "1a1m_1_protein",
+    "1a1n_1_protein",
+    "1a1o_1_protein",
+    "1a2b_1_protein",
+    "1a2c_1_protein",
+    "1a2t_1_protein",
+    "1a2u_1_protein",
+    "1a3k_1_protein",
+    "1a3t_1_protein",
+    "1a3u_1_protein",
+    "1a3v_1_protein",
+    "1a4g_1_protein",
+    "1a4h_1_protein",
+    "1a4i_1_protein",
+    "1a4k_1_protein",
+    "1a4k_2_protein",
+    "1a4m_1_protein",
+    "1a4m_2_protein",
+    "1a4m_3_protein",
+    "1a4m_4_protein",
+    "1a4q_1_protein",
+    "1a4r_1_protein",
+    "1a4w_1_protein",
+    "1a5b_1_protein",
+    "1a5s_1_protein",
+    "1a5v_1_protein",
+    "1a5w_1_protein",
+    "1a5x_1_protein",
+    "1a5z_1_protein",
+    "1a6v_1_protein"
+  ]
+}
