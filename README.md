@@ -1,5 +1,11 @@
 # JClinic Coding/Research Assignment
 
+### Setup
+```bash
+uv sync
+source .venv/bin/activate
+```
+
 ### Data Parsing
 File: [src/dataset.py](src/dataset.py)
 - I used Biopython to parse PDB files and extract Calpha coordinates + residues.
